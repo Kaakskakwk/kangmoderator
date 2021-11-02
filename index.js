@@ -13,7 +13,7 @@ app.listen(3000, () => {
 
 const bot = new Aoijs.Cache({
     token: process.env.TOKEN, //Discord Bot Token
-    prefix: "j!", //Customizable
+    prefix: "your prefix", //Customizable
     cache: {
         Guilds: true,
         Channels: false,
